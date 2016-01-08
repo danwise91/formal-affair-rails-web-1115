@@ -8,4 +8,6 @@ class ApplicationController < ActionController::Base
   def global_params
     $params = params
   end
+
+  
 end
